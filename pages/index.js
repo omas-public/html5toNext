@@ -1,6 +1,19 @@
+import Head from 'next/head'
 const Home = () => {
   return (
     <>
+      <Head>
+        <meta name='viewport' content='width=device-width, initial-scale=1' />
+        <meta
+          name='description'
+          content='ひとつ上のWeb開発を目指すセミナーvol.2を10月16日に開催します。今回はローカルWebサーバーの構築を紹介します。ただいま参加者募集中。'
+        />
+        <title>
+          ひとつ上のWeb開発を目指すセミナーvol.2　ローカル開発環境の構築　参加者募集！
+        </title>
+        <link rel='icon' href='/favicon.ico' />
+      </Head>
+
       <article>
         <h1>
           ひとつ上のWeb開発を目指す vol.2　ローカル開発環境の構築　参加者募集
